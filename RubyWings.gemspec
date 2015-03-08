@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'RubyWings/version'
+require 'ruby_wings/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'RubyWings'
+  spec.name          = 'ruby_wings'
   spec.version       = RubyWings::VERSION
   spec.authors       = ['Gerrit Visscher']
   spec.email         = ['gerrit@visscher.de']

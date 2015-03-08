@@ -1,8 +1,8 @@
-require 'RubyWings/version'
+require 'ruby_wings/version'
 
 
 # Make access to hash values easier
-class ::Nil
+class ::NilClass
   def blank?
     true
   end
