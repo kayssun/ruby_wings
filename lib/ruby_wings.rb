@@ -28,6 +28,13 @@ class ::Hash
     self.merge(second, &merger)
   end
 
+  def symbolize
+    Hash[
+      self.map do |k, v|
+        [(k.respond_to?(:to_sym) ? k.to_sym : k), v.class == Hash ? v.symbolize : v]
+      end
+    ]
+  end
 end
 
 module RubyWings
