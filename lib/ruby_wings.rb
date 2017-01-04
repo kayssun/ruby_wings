@@ -14,9 +14,23 @@ class ::String
   end
 end
 
-class ::Fixnum
-  def blank?
-    false
+if 1.is_a? Integer
+  class ::Integer
+    def blank?
+      false
+    end
+  end
+else
+  class ::Fixnum
+    def blank?
+      false
+    end
+  end
+
+  class ::Bignum
+    def blank?
+      false
+    end
   end
 end
 
