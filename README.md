@@ -1,6 +1,6 @@
 # RubyWings
 
-TODO: Write a gem description
+This gem is deprecated. You should use [ActiveSupport](https://rubygems.org/gems/activesupport) instead.
 
 ## Installation
 
